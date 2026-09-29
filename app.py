@@ -20,4 +20,4 @@ st.plotly_chart(fig)
 if savings < income*0.2:
     st.warning(f"Save only {savings/income*100:.1f}%. Cut {max(expenses, key=expenses.get)}!")
 else:
-    st.success("Excellent! You are saving well!"); st.balloons()
+    st.success("Excellent! You are sav
